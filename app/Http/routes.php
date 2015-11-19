@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function() {
-   return 'Estudo Laravel';
-});
-
+Route::get('/', function() {return 'Estudo Laravel';});
 Route::get('/produtos', 'ProdutoController@lista');
 Route::get('produtos/mostra/{id}', 'ProdutoController@mostra');
 Route::get('produtos/novo', 'ProdutoController@novo');

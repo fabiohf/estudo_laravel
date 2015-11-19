@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.735849">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.38501742">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProdutoController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7454243">
-              <caret line="49" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+            <state vertical-scroll-proportion="-30.076923">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="e#44#78#0#PHP" expanded="true" />
                 <marker date="1447974615000" expanded="true" signature="231:253" placeholder="select * fro..produtos..." />
@@ -128,8 +128,8 @@
         <option value="$PROJECT_DIR$/resources/views/produto/adicionado.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/principal.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/produto/listagem.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -961,29 +961,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.735849">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state vertical-scroll-proportion="-30.076923">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
+            <element signature="e#44#78#0#PHP" expanded="true" />
+            <marker date="1447974615000" expanded="true" signature="231:253" placeholder="select * fro..produtos..." />
+            <marker date="1447974615000" expanded="true" signature="231:254" placeholder="select * fro..produtos..." />
+            <marker date="1447974615000" expanded="true" signature="436:471" placeholder="select * fro..produtos..." />
+            <marker date="1447974615000" expanded="true" signature="822:868" placeholder="insert into ..." />
+            <marker date="1447974615000" expanded="true" signature="1222:1244" placeholder="select * fro..produtos..." />
+            <marker date="1447974615000" expanded="true" signature="1222:1300" placeholder="select * fro..produtos..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,21 +988,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/listagem.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7454243">
-          <caret line="49" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/produto/formulario.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38501742">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding>
-            <element signature="e#44#78#0#PHP" expanded="true" />
-            <marker date="1447974615000" expanded="true" signature="231:253" placeholder="select * fro..produtos..." />
-            <marker date="1447974615000" expanded="true" signature="231:254" placeholder="select * fro..produtos..." />
-            <marker date="1447974615000" expanded="true" signature="436:471" placeholder="select * fro..produtos..." />
-            <marker date="1447974615000" expanded="true" signature="822:868" placeholder="insert into ..." />
-            <marker date="1447974615000" expanded="true" signature="1222:1244" placeholder="select * fro..produtos..." />
-            <marker date="1447974615000" expanded="true" signature="1222:1300" placeholder="select * fro..produtos..." />
+            <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
