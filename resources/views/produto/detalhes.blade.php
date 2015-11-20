@@ -1,7 +1,9 @@
 @extends('layout.principal')
 
 @section('conteudo')
+
 <h1>Detalhes do Produto {{$produto->nome}} </h1>
+
 <ul>
     <li>
         <b>Valor:</b> R$ {{$produto->valor}}
@@ -13,4 +15,5 @@
         <b>Quantidade em estoque:</b> {{$produto->quantidade}}
     </li>
 </ul>
+    
 @stop
