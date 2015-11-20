@@ -39,7 +39,6 @@ class ProdutoController extends Controller
                 $produto['quantidade']
             )
         );
-
         return redirect('/produtos')->withInput(Request::only('nome'));
     }
 
