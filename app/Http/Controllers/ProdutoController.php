@@ -2,10 +2,12 @@
 
 namespace estoque\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
+//use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
+use Validator;
 
 use estoque\Produto;
+use estoque\Http\Requests\ProdutoRequest;
 
 
 class ProdutoController extends Controller
@@ -35,8 +37,33 @@ class ProdutoController extends Controller
         return view('produto.formulario');
     }
 
-    public function adiciona()
+    public function adiciona(ProdutoRequest $request)
     {
+        /*
+        // Validando dados de entrada
+        $validator = Validator::make(
+            [
+                'nome' => Request::input('nome'),
+                'descricao' => Request::input('descricao'),
+                'valor' => Request::input('valor'),
+                'quantidade' => Request::input('quantidade')
+            ],
+            [
+                'nome' => 'required|min:5',
+                'descricao' => 'required|max:255',
+                'valor' => 'required|numeric',
+                'quantidade' => 'required|numeric'
+            ]
+        );
+
+        if ($validator->fails()) {
+            $messages = $validator->messages();
+            dd($messages);
+
+            return redirect()->action('ProdutoController@novo');
+        }
+        */
+
         /*
         $produto = Request::all();
         DB::insert('insert into produtos values (null, ?, ?, ?, ?)',
@@ -55,7 +82,11 @@ class ProdutoController extends Controller
         */
 
         // Não preciso nem chamar o save
-        Produto::create(Request::all());
+        //Produto::create(Request::all());
+
+        // Agora estou usando o meu produto request
+        Produto::create($request->all());
+
         return redirect('/produtos')->withInput(Request::only('nome'));
     }
 
