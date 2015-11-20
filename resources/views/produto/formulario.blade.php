@@ -23,7 +23,7 @@
 
         <div class="form-group">
             <label>Descrição</label>
-            <input name="descricao" class="form-control"/>
+            <input name="descricao" class="form-control" value="{{old("descricao")}}">
         </div>
 
         <div class="form-group">
