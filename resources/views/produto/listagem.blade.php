@@ -27,6 +27,11 @@
                             <span class="glyphicon glyphicon-search"></span>
                         </a>
                     </td>
+                    <td class="text-center">
+                        <a href="{{action('ProdutoController@remove', $produto->id)}}">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </td>
                 </tr>
             @endforeach
         </table>
