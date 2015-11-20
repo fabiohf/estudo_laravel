@@ -12,7 +12,10 @@
         <b>Descrição:</b> {{$produto->descricao}}
     </li>
     <li>
-        <b>Quantidade em estoque:</b> {{$produto->quantidade}}
+        <b>Quantidade:</b> {{$produto->quantidade}}
+    </li>
+    <li>
+        <b>Tamanho:</b> {{$produto->tamanho}}
     </li>
 </ul>
 

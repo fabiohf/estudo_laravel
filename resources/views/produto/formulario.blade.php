@@ -25,6 +25,11 @@
                 <input name="quantidade" class="form-control" type="number"/>
             </div>
 
+            <div class="form-group">
+                <label>Tamanho</label>
+                <input name="tamanho" class="form-control"/>
+            </div>
+
             <input name="_token" type="hidden" value="{{{csrf_token()}}}"/>
 
             <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>

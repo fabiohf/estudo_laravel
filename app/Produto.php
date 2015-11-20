@@ -19,9 +19,11 @@ class Produto extends Model
         'nome',
         'descricao',
         'valor',
-        'quantidade'
+        'quantidade',
+        'tamanho'
     );
 
     // Não precisa instanciar created_at e updated_at
     public $timestamps = false;
+
 }
