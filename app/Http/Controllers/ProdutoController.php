@@ -62,9 +62,7 @@ class ProdutoController extends Controller
 
             return redirect()->action('ProdutoController@novo');
         }
-        */
-
-        /*
+       
         $produto = Request::all();
         DB::insert('insert into produtos values (null, ?, ?, ?, ?)',
            array(
