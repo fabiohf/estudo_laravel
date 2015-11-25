@@ -41,6 +41,15 @@
             <input name="tamanho" class="form-control" value="{{old("tamanho")}}"/>
         </div>
 
+        <div class="form-group">
+            <label>Categoria</label>
+            <select name="categoria_id" class="form-control">
+                @foreach($categorias as $categoria)
+                    <option value="{{$categoria->id}}">{{$categoria->nome}}</option>
+                @endforeach
+            </select>
+        </div>
+
         <input name="_token" type="hidden" value="{{{csrf_token()}}}"/>
 
         <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>

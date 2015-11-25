@@ -17,11 +17,11 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/produtos">Listagem</a></li>
+                <li><a href="/produtos/novo">Novo</a></li>
                 @if(Auth::guest())
                     <li><a href="/auth/login">Login</a></li>
                     <li><a href="/auth/register">Registre-se</a></li>
                 @else
-                    <li><a href="/produtos/novo">Novo</a></li>
                     <li><a href="#">{{Auth::user()->name}}</a></li>
                     <li><a href="/auth/logout">Logout</a></li>
                 @endif
